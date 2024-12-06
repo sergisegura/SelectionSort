@@ -15,10 +15,13 @@ public class Main {
      * @param args son arguments passats per linia de comandes que, en aquest cas no ho utilitza. 
      * Les dades que si es tractaràn son aquelles que pasen per l'scanner.
      */
+    
 
 public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        
+        System.out.println("He aprés molt fent el mòdul 8 de DAW encara que hagi estat dur!!!");
+        
         System.out.println("Introdueix la mida de l'array: ");
         int size = scanner.nextInt();
 
